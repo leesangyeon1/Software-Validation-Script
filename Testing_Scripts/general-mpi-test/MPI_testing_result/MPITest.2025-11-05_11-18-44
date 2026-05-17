@@ -1,0 +1,40 @@
+=== MPI Node Connectivity Test for entire cluster ===
+Job ID: 5669
+Requested nodes: 1
+Node range: node-101
+Actual nodes allocated: 1
+Node list: node-101
+
+=== System Information ===
+Linux Version: AlmaLinux 9.6 (Sage Margay)
+Slurm Version: slurm 22.05.9
+
+Start time: Wed Nov  5 11:18:44 AM CST 2025
+
+Running MPI connectivity test...
+
+========================================
+MPI Node Connectivity Test
+========================================
+Total processes: 1
+SLURM Job ID: 5669
+SLURM Nodes: 1
+SLURM Tasks: 1
+Node List: node-101
+========================================
+Process 0 of 1 running on node-101.hpc.uco.edu
+
+Starting connectivity tests between all nodes...
+
+========================================
+NODE CONNECTIVITY TEST RESULTS
+========================================
+Node 101~101 passed the connection test
+From node-101 to node-101 is connected and able to communicate with each other.
+
+Connectivity test completed
+========================================
+✓ Connectivity test COMPLETED
+
+End time: Wed Nov  5 11:18:47 AM CST 2025
+Total job time: 00:00:03 passed for the test.

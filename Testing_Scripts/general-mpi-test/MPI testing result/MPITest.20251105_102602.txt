@@ -1,0 +1,12 @@
+=== MPI Node Connectivity Test for entire cluster ===
+Start time: Wed Nov  5 10:26:02 AM CST 2025
+
+System info:
+1) Linux version: AlmaLinux 9.6 (Sage Margay) (kernel 5.14.0-570.52.1.el9_6.x86_64)
+2) Slurm version: slurm 22.05.9
+
+Requested nodes: 135
+Node list: gpu-[01-02],node-[101-142,201-242,301-342,436-442]
+
+Running MPI connectivity test...
+========================================

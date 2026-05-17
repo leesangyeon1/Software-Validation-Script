@@ -1,0 +1,147 @@
+=== General Test Report ===
+Generated: 2025-12-04T09:44:05-06:00
+
+== System Information ==
+Linux:   AlmaLinux 9.7 (Moss Jungle Cat) (kernel 5.14.0-570.52.1.el9_6.x86_64)
+Slurm:   slurm 22.05.9
+
+-- Loaded modules --
+No modules loaded
+
+== Application Test Results (Octave) ==
+File:     Octave_10.1.0-2025.12.04
+Version:  10.1.0
+Test date:2025.12.04
+
+=== Octave Test Result ===
+Software: GNU Octave
+Version:   10.1.0
+Timestamp Start: 2025-12-04T09:43:17
+
+--- Runtime environment ---
+Hostname: node-104
+
+--- Installed Packages (Custom Tools) ---
+general, io, optim, statistics, struct
+
+--- Loaded modules ---
+GCCcore/12.3.0
+zlib/1.2.13-GCCcore-12.3.0
+binutils/2.40-GCCcore-12.3.0
+GCC/12.3.0
+numactl/2.0.16-GCCcore-12.3.0
+XZ/5.4.2-GCCcore-12.3.0
+libxml2/2.11.4-GCCcore-12.3.0
+libpciaccess/0.17-GCCcore-12.3.0
+hwloc/2.9.1-GCCcore-12.3.0
+OpenSSL/1.1
+libevent/2.1.12-GCCcore-12.3.0
+UCX/1.14.1-GCCcore-12.3.0
+libfabric/1.18.0-GCCcore-12.3.0
+PMIx/4.2.4-GCCcore-12.3.0
+UCC/1.2.0-GCCcore-12.3.0
+OpenMPI/4.1.5-GCC-12.3.0
+OpenBLAS/0.3.23-GCC-12.3.0
+FlexiBLAS/3.3.1-GCC-12.3.0
+FFTW/3.3.10-GCC-12.3.0
+gompi/2023a
+FFTW.MPI/3.3.10-gompi-2023a
+ScaLAPACK/2.2.0-gompi-2023a-fb
+foss/2023a
+bzip2/1.0.8-GCCcore-12.3.0
+expat/2.5.0-GCCcore-12.3.0
+libpng/1.6.39-GCCcore-12.3.0
+Brotli/1.0.9-GCCcore-12.3.0
+freetype/2.13.0-GCCcore-12.3.0
+ncurses/6.4-GCCcore-12.3.0
+util-linux/2.39-GCCcore-12.3.0
+fontconfig/2.14.2-GCCcore-12.3.0
+xorg-macros/1.20.0-GCCcore-12.3.0
+X11/20230603-GCCcore-12.3.0
+PCRE/8.45-GCCcore-12.3.0
+libreadline/8.2-GCCcore-12.3.0
+arpack-ng/3.9.0-foss-2023a
+cURL/8.0.1-GCCcore-12.3.0
+gzip/1.12-GCCcore-12.3.0
+lz4/1.9.4-GCCcore-12.3.0
+zstd/1.5.5-GCCcore-12.3.0
+libdrm/2.4.115-GCCcore-12.3.0
+libglvnd/1.6.0-GCCcore-12.3.0
+libunwind/1.6.2-GCCcore-12.3.0
+LLVM/16.0.6-GCCcore-12.3.0
+Mesa/23.1.4-GCCcore-12.3.0
+libGLU/9.0.3-GCCcore-12.3.0
+NASM/2.16.01-GCCcore-12.3.0
+libjpeg-turbo/2.1.5.1-GCCcore-12.3.0
+xprop/1.2.6-GCCcore-12.3.0
+FLTK/1.3.8-GCCcore-12.3.0
+GMP/6.2.1-GCCcore-12.3.0
+GLPK/5.0-GCCcore-12.3.0
+freeglut/3.4.0-GCCcore-12.3.0
+GL2PS/1.4.2-GCCcore-12.3.0
+pixman/0.42.2-GCCcore-12.3.0
+libffi/3.4.4-GCCcore-12.3.0
+gettext/0.21.1-GCCcore-12.3.0
+PCRE2/10.42-GCCcore-12.3.0
+GLib/2.77.1-GCCcore-12.3.0
+cairo/1.17.8-GCCcore-12.3.0
+libgd/2.3.3-GCCcore-12.3.0
+ICU/73.2-GCCcore-12.3.0
+HarfBuzz/5.3.1-GCCcore-12.3.0
+FriBidi/1.0.12-GCCcore-12.3.0
+Pango/1.50.14-GCCcore-12.3.0
+libcerf/2.3-GCCcore-12.3.0
+double-conversion/3.3.0-GCCcore-12.3.0
+graphite2/1.3.14-GCCcore-12.3.0
+DBus/1.15.4-GCCcore-12.3.0
+NSPR/4.35-GCCcore-12.3.0
+NSS/3.89.1-GCCcore-12.3.0
+snappy/1.1.10-GCCcore-12.3.0
+JasPer/4.0.0-GCCcore-12.3.0
+nodejs/18.17.1-GCCcore-12.3.0
+Qt5/5.15.10-GCCcore-12.3.0
+Lua/5.4.6-GCCcore-12.3.0
+gnuplot/5.4.8-GCCcore-12.3.0
+Java/11.0.20
+Qhull/2020.2-GCCcore-12.3.0
+Tcl/8.6.13-GCCcore-12.3.0
+SQLite/3.42.0-GCCcore-12.3.0
+Python/3.11.3-GCCcore-12.3.0
+PyQt5/5.15.10-GCCcore-12.3.0
+QScintilla/2.14.1-GCCcore-12.3.0
+Szip/2.1.1-GCCcore-12.3.0
+HDF5/1.14.0-gompi-2023a
+qrupdate/1.1.2-GCCcore-12.3.0
+MPFR/4.2.0-GCCcore-12.3.0
+SuiteSparse/7.1.0-foss-2023a
+Perl/5.36.1-GCCcore-12.3.0
+makeinfo/7.0.3-GCCcore-12.3.0
+libogg/1.3.5-GCCcore-12.3.0
+FLAC/1.4.2-GCCcore-12.3.0
+libvorbis/1.3.7-GCCcore-12.3.0
+libopus/1.4-GCCcore-12.3.0
+LAME/3.100-GCCcore-12.3.0
+libsndfile/1.2.2-GCCcore-12.3.0
+jbigkit/2.1-GCCcore-12.3.0
+libdeflate/1.18-GCCcore-12.3.0
+LibTIFF/4.5.0-GCCcore-12.3.0
+ATK/2.38.0-GCCcore-12.3.0
+at-spi2-core/2.49.91-GCCcore-12.3.0
+at-spi2-atk/2.38.0-GCCcore-12.3.0
+Gdk-Pixbuf/2.42.10-GCCcore-12.3.0
+libepoxy/1.5.10-GCCcore-12.3.0
+Wayland/1.22.0-GCCcore-12.3.0
+GTK3/3.24.37-GCCcore-12.3.0
+Ghostscript/10.01.2-GCCcore-12.3.0
+GraphicsMagick/1.3.45-GCCcore-12.3.0
+SUNDIALS/6.6.0-foss-2023a
+RapidJSON/1.1.0-20230928-GCCcore-12.3.0
+Octave/10.1.0-foss-2023a
+
+--- Slurm execution info ---
+JobID:    6566
+Partition:general
+NodeList: node-104
+
+Timestamp End:   2025-12-04T09:43:18
+Duration (sec):  0

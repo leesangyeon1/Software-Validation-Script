@@ -1,0 +1,24 @@
+=== VS Code Test Result ===
+Software: Visual Studio Code
+Version:   unknown
+Timestamp Start: 2025-11-10T15:46:43
+
+--- Runtime environment ---
+Hostname: node-108.hpc.uco.edu
+Shell:     /bin/bash
+Terminal:  xterm-256color
+
+--- Installed Extensions (Custom Tools) ---
+Error: Could not list extensions (code command failed or not found).
+
+--- Loaded modules ---
+code-server/4.103.2
+git-lfs/3.6.1
+
+--- Slurm execution info ---
+JobID:    5767
+Partition:general
+NodeList: node-108
+
+Timestamp End:   2025-11-10T15:46:43
+Duration (sec):  0

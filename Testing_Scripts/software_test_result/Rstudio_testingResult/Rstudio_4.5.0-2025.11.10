@@ -1,0 +1,17 @@
+=== RStudio Test Result ===
+Software: RStudio
+Version:   4.5.0
+Timestamp Start: 2025-11-10T15:26:48-0600
+
+--- Runtime environment ---
+Hostname:  node-105.hpc.uco.edu
+R Version: 4.5.0
+
+Custom tools (packages) used:
+tidyverse (2.0.0)
+data.table (1.17.0)
+ggplot2 (3.5.2)
+shiny (1.10.0)
+
+Timestamp End:   2025-11-10T15:26:48-0600
+Duration (sec):  0

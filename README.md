@@ -64,3 +64,17 @@ Active software test outputs from OnDemand GUI applications (Jupyter, RStudio, V
 The automation collects metadata such as timestamps, node information, and software versions, then generates a consolidated report (General_test/) to document system readiness before cluster-wide deployment.
 
 This validation framework improves reproducibility, ensures consistent software configurations across GUI and shell environments, and supports long-term maintainability for HPC users and administrators.
+
+## Included Folder and Full Report
+
+The repository now includes the full `Testing_Scripts/` folder and a comprehensive documentation report:
+
+- Imported folder: `Testing_Scripts/`
+- Full report: `Testing_Scripts/FULL_ENVIRONMENT_REPORT.md`
+
+The report includes:
+
+- environment snapshot and tool availability
+- script settings and behavior notes
+- folder structure summary
+- original script inventory with descriptions

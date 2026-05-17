@@ -1,0 +1,89 @@
+=== Jupyter Test Result ===
+Software: Jupyter
+Version:  -f
+Timestamp Start: 2025-11-05T13:43:06
+
+Custom tools used: numpy pandas matplotlib
+
+--- Additional kernels ---
+Available kernels:
+  python3    /opt/software/jupyter-server/2.14.0-GCCcore-13.2.0/share/jupyter/kernels/python3
+
+--- Loaded modules ---
+GCCcore/13.2.0
+zlib/1.2.13-GCCcore-13.2.0
+binutils/2.40-GCCcore-13.2.0
+bzip2/1.0.8-GCCcore-13.2.0
+ncurses/6.4-GCCcore-13.2.0
+libreadline/8.2-GCCcore-13.2.0
+Tcl/8.6.13-GCCcore-13.2.0
+SQLite/3.43.1-GCCcore-13.2.0
+XZ/5.4.4-GCCcore-13.2.0
+libffi/3.4.4-GCCcore-13.2.0
+OpenSSL/1.1
+Python/3.11.5-GCCcore-13.2.0
+cffi/1.15.1-GCCcore-13.2.0
+cryptography/41.0.5-GCCcore-13.2.0
+virtualenv/20.24.6-GCCcore-13.2.0
+Python-bundle-PyPI/2023.10-GCCcore-13.2.0
+OpenPGM/5.2.122-GCCcore-13.2.0
+libsodium/1.0.19-GCCcore-13.2.0
+util-linux/2.39-GCCcore-13.2.0
+ZeroMQ/4.3.5-GCCcore-13.2.0
+libxml2/2.11.5-GCCcore-13.2.0
+libxslt/1.1.38-GCCcore-13.2.0
+lxml/4.9.3-GCCcore-13.2.0
+jedi/0.19.1-GCCcore-13.2.0
+IPython/8.17.2-GCCcore-13.2.0
+libyaml/0.2.5-GCCcore-13.2.0
+PyYAML/6.0.1-GCCcore-13.2.0
+PyZMQ/25.1.2-GCCcore-13.2.0
+tornado/6.4-GCCcore-13.2.0
+BeautifulSoup/4.12.2-GCCcore-13.2.0
+jupyter-server/2.14.0-GCCcore-13.2.0
+JupyterLab/4.2.0-GCCcore-13.2.0
+GCC/13.2.0
+OpenBLAS/0.3.24-GCC-13.2.0
+FlexiBLAS/3.3.1-GCC-13.2.0
+FFTW/3.3.10-GCC-13.2.0
+gfbf/2023b
+pybind11/2.11.1-GCCcore-13.2.0
+SciPy-bundle/2023.11-gfbf-2023b
+GMP/6.3.0-GCCcore-13.2.0
+MPFR/4.2.1-GCCcore-13.2.0
+MPC/1.3.1-GCCcore-13.2.0
+gmpy2/2.1.5-GCC-13.2.0
+sympy/1.12-gfbf-2023b
+libpng/1.6.40-GCCcore-13.2.0
+Brotli/1.1.0-GCCcore-13.2.0
+freetype/2.13.2-GCCcore-13.2.0
+expat/2.5.0-GCCcore-13.2.0
+fontconfig/2.14.2-GCCcore-13.2.0
+xorg-macros/1.20.0-GCCcore-13.2.0
+libpciaccess/0.17-GCCcore-13.2.0
+X11/20231019-GCCcore-13.2.0
+Tk/8.6.13-GCCcore-13.2.0
+Tkinter/3.11.5-GCCcore-13.2.0
+NASM/2.16.01-GCCcore-13.2.0
+libjpeg-turbo/3.0.1-GCCcore-13.2.0
+jbigkit/2.1-GCCcore-13.2.0
+gzip/1.13-GCCcore-13.2.0
+lz4/1.9.4-GCCcore-13.2.0
+zstd/1.5.5-GCCcore-13.2.0
+libdeflate/1.19-GCCcore-13.2.0
+LibTIFF/4.6.0-GCCcore-13.2.0
+giflib/5.2.1-GCCcore-13.2.0
+libwebp/1.3.2-GCCcore-13.2.0
+OpenJPEG/2.5.0-GCCcore-13.2.0
+LittleCMS/2.15-GCCcore-13.2.0
+Pillow/10.2.0-GCCcore-13.2.0
+Qhull/2020.2-GCCcore-13.2.0
+matplotlib/3.8.2-gfbf-2023b
+Python-Data-Science/2023b-Python-3.11.5
+
+--- Slurm execution info ---
+Partition: general
+NodeList:  node-102
+
+Timestamp End:   2025-11-05T13:43:13
+Duration (sec):  6
